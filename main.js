@@ -5,11 +5,11 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "vai rolar tutorial avançado de tft?";
+  question.innerHTML = "Quando nos encontrarmos, vai querer namorar comigo?";
   gif.src ="second.gif";
 
   yesBtn.addEventListener("click", () =>{
-    question.innerHTML = "okay, marcado pra sabado então";
+    question.innerHTML = "Já se apronta, quando nos casarmos vamos fazer muitas coisinhas u.u";
     gif.src ="third.gif";
   });
 
